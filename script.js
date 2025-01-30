@@ -58,7 +58,7 @@ function playRound(userChoice, computerChoice){
 
 function resultUpdate(){
     yourScore.textContent= `Your score is : ${humanScore}`;
-    compScore.textContent = `Computer score is : ${computerScore}.`;
+    compScore.textContent = `Computer score is : ${computerScore}`;
     if(humanScore === MAX_SCORE || computerScore === MAX_SCORE)
     {
         if(humanScore> computerScore)
